@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[url(r'^my_url/\$', my_view),]]></content>
+    <tabTrigger>dj</tabTrigger>
+    <description>urls.py - url</description>
+</snippet>

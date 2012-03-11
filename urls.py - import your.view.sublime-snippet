@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[from myapp.myviewfile import myview]]></content>
+    <tabTrigger>dj</tabTrigger>
+    <description>urls.py - import your.view</description>
+</snippet>
