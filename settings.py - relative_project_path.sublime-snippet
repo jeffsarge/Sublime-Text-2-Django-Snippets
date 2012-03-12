@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[import os
+def relative_project_path(*x):
+    return os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)]]></content>
+    <tabTrigger>dj</tabTrigger>
+    <description>settings.py - relative_project_path</description>
+</snippet>

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[def my_view(request):
-    # View code here...
+    foo = 'hello world'
     return render_to_response('myapp/template_folder/my_template.html', {
-        "foo": "bar"
+        'bar': foo
     })]]></content>
     <tabTrigger>dj</tabTrigger>
     <description>views.py - render_to_response</description>

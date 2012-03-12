@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[class Person(models.Model):
+    first_name = models.CharField(max_length=30)
+
+    def __unicode__(self):
+        return self.first_name]]></content>
+    <tabTrigger>dj</tabTrigger>
+    <description>models.py - generic model</description>
+</snippet>

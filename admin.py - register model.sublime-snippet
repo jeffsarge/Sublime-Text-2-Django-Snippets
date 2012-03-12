@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[admin.site.register(my_model)]]></content>
+    <tabTrigger>dj</tabTrigger>
+    <description>admin.py - register model</description>
+</snippet>
