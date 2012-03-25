@@ -2,4 +2,5 @@
     <content><![CDATA[from django.shortcuts import render_to_response]]></content>
     <tabTrigger>dj</tabTrigger>
     <description>views.py - import render_to_response</description>
+    <scope>source.python</scope>
 </snippet>

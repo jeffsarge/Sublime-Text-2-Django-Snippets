@@ -1,5 +1,6 @@
 <snippet>
-    <content><![CDATA[url(r'^my_url/\$', my_view),]]></content>
+    <content><![CDATA[url(r'^${1:my_url}/\$', ${2:my_view}),]]></content>
     <tabTrigger>dj</tabTrigger>
     <description>urls.py - url</description>
+    <scope>source.python</scope>
 </snippet>

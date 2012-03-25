@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[from django.contrib import admin
-from my_app.models import my_model]]></content>
+from ${1:my_app}.models import ${2:my_model}]]></content>
     <tabTrigger>dj</tabTrigger>
     <description>admin.py - import models</description>
+    <scope>source.python</scope>
 </snippet>

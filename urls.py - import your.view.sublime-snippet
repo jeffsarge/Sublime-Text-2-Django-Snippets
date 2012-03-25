@@ -1,5 +1,6 @@
 <snippet>
-    <content><![CDATA[from my_app.views import my_view]]></content>
+    <content><![CDATA[from ${1:my_app}.views import ${2:my_view}]]></content>
     <tabTrigger>dj</tabTrigger>
     <description>urls.py - import your.view</description>
+    <scope>source.python</scope>
 </snippet>

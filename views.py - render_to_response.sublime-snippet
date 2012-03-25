@@ -1,9 +1,10 @@
 <snippet>
-    <content><![CDATA[def my_view(request):
-    foo = 'hello world'
-    return render_to_response('myapp/template_folder/my_template.html', {
-        'bar': foo
+    <content><![CDATA[def ${1:my_view}(request):
+    ${2:foo} = 'hello world'
+    return render_to_response('${3:myapp/template_folder/my_template.html}', {
+        '$2': $2
     })]]></content>
     <tabTrigger>dj</tabTrigger>
     <description>views.py - render_to_response</description>
+    <scope>source.python</scope>
 </snippet>
